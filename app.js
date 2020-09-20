@@ -18,7 +18,6 @@ function res()
   let sd = document.createElement('div');
   sd.setAttribute('class', 'all');
   let vals = [];
-  let newVal = '';
   valeInArray.map((i, index) =>
   {
     let d = document.createElement('span');
