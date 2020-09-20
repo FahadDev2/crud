@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+body{
+    background-color: #FEE140;
+    background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);
+        padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.wrap{
+    width: 80%;
+    margin: auto;
+    position: relative;
+    top: 55px;
+
+}
+.wrap .fillData{
+
+    text-align: center;
+
+    
+}
+.wrap .fillData input{
+    outline: none;
+    padding-right: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 9px;
+    border: 1px solid darkred;
+    padding-left: 12px;
+}
+.all{
+    width: 77%;
+    background: white;
+    padding: 3px;
+    text-align: center;
+    border: 1px solid #dddddd;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15px;
+    border-radius: 18px;
+}
+.mydata:nth-child(1)::before{
+    content: "Name: ";
+    color: rgb(236, 155, 155);
+    text-align: left;
+}
+.mydata:nth-child(2)::before{
+    content: "Age: ";
+    color: rgb(231, 191, 141);
+    text-align: left;
+}
+.mydata:nth-child(3)::before{
+    content: "Work: ";
+    color: rgb(209, 252, 231);
+    text-align: left;
+}
+.mydata{
+
+    display: inline-block;
+    
+    margin: 5px;
+    
+    padding: 5px;
+    width: 155px;
+    text-align: center;
+    height: 25px;
+    color: white;
+    line-height: 25px;
+    font-family: 'Roboto Mono', monospace;
+    border-radius: 15px;
+
+
+ 
+}
+.mydata:nth-child(1){
+    background: crimson;
+}
+.mydata:nth-child(2){
+    background:darkgoldenrod;
+}
+.mydata:nth-child(3){
+    background:darkgreen;
+}
+
+h1{
+    font-family: 'Roboto Mono', monospace;
+ 
+}
+small{
+    font-size: 20px;
+    color:darkgoldenrod;
+}
